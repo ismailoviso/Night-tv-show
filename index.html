@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Watch</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="anime">
+        <div class="circ">
+            <div class="load">Loading . . . </div>
+            <div class="hands"></div>
+            <div class="body"></div>
+            <div class="head">
+                <div class="eye"></div>
+            </div>
+        </div>
+    </div>
+    <div class="main__content">
+        <span class="main__close icon-reg"></span>
+        <div class="container">
+            <form action="" class="form__main">
+                <input type="text" placeholder="search something?" class="header__input">
+                <button class="icon-reg"></button>
+            </form>
+            <div class="main__block">
+               <!-- сюда отрендеряться все топовые фильмы вместе с пагинацией или результаты поиска -->
+            </div>
+            <div class="pagination">
+                <!-- пагинация -->
+            </div>
+            <div class="main__solo">
+                
+            </div>
+        </div>
+    </div>
+    <header class="header">
+      <div class="navigate">
+        <div class="container">
+            <nav class="header__nav">
+                <a href="#" class="logo"><span class="logo__span">m</span> box</a>
+                <div class="header__items">
+                    <ul class="header__list">
+                        <li><a href="#" class="header__link">Home</a></li>
+                        <li><a href="#" class="header__link">TV Shows</a></li>
+                        <li><a href="#" class="header__link movies__link">Movies</a></li>
+                        <li><a href="#" class="header__link">Series</a></li>
+                    </ul>
+                    <ul class="header__list header__list-nth2">
+                        <li>
+                            <a href="#" class="header__icon search__link ">
+                                <span class="icon-reg"></span>
+                            </a>
+                        </li>
+                        <li><a href="#" class="header__icon icon-reg"></a></li>
+                        <li><a href="#" class="header__icon icon-reg"></a></li>
+                    </ul>
+                </div>
+                <a href="#" class="header__btn">
+                    <span class="bars"></span>
+                </a>
+            </nav>
+        </div>
+    </div>
+    <div class="header__abs"></div>
+        <div class="header__content">
+            <div class="container">
+                <div class="header__text">
+                    <!-- <h1 class="header__title">night watch</h1>
+                    <div class="header__balls">
+                        <span class="header__year ">2021</span>
+                        <span class="logo__span header__rating  header__year ">18+</span>
+                        <div class="header__seasons header__year">9 Seasons</div>
+                        <div class="header__stars header__year"><span class="icon-solid"></span>8.8</div>
+                    </div>
+                    <p class="header__descr">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nunc quis et elit lacinia urna.Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                    </p>
+                    <div class="header__buttons">
+                        <a href="#" class="header__watch"><span class="icon-solid"></span>watch</a>
+                        <a href="#" class="header__more header__watch">More information</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="trend__tv">
+            <div class="container">
+                <h2 class="trend__tv-title">Trending TV Shows <span class="icon-reg"></span></h2>
+                <div class="swiper-container trend__tv-slider">
+                    <div class="swiper-wrapper">
+                        <!-- <div class="swiper-slide"><img src="images/after.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/emancipation.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/dunkirk.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/theEnormityOfMyLife.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/vanitas.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/somethingLikePerfect.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/after.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/emancipation.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/dunkirk.png" alt=""></div> -->
+                    </div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+        <div class="trend__movies">
+            <div class="container">
+                <h2 class="trend__tv-title popular__title">Trending Movies <span class="icon-reg"></span></h2>
+                <div class="swiper-container trend__tv-slider trend__movies-slider">
+                    <div class="swiper-wrapper">
+                        <!-- <div class="swiper-slide"><img src="images/maturingYouth.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/leapYear.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/oakIsland.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/streetLegal.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/interlock.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/blackEcho.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/maturingYouth.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/leapYear.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/oakIsland.png" alt=""></div> -->
+                    </div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <a href="#" class="trend__movies-link header__watch movies__link">See more</a>
+            </div>
+        </div>
+        <div class="popular__genres">
+            <div class="container">
+                <h2 class="popular__genres-title trend__tv-title">Popular Genres <span class="icon-reg"></span></h2>
+                <div class="popular__genres-grid">
+                    <div class="popular__genres-item">
+                        <img src="images/hearts.svg" alt="">
+                        <span class="popular__genres-span">Romance</span>
+                    </div>
+                    <div class="popular__genres-item">
+                        <img src="images/cinema.svg" alt="">
+                        <span class="popular__genres-span">Drama</span>
+                    </div>
+                    <div class="popular__genres-item">
+                        <img src="images/documentary.svg" alt="">
+                        <span class="popular__genres-span">Historical</span>
+                    </div>
+                    <div class="popular__genres-item">
+                        <img src="images/killer.svg" alt="">
+                        <span class="popular__genres-span">Action</span>
+                    </div>
+                    <div class="popular__genres-item">
+                        <img src="images/rocket.svg" alt="">
+                        <span class="popular__genres-span">Sci-Fi</span>
+                    </div>
+                    <div class="popular__genres-item">
+                        <img src="images/ghost.svg" alt="">
+                        <span class="popular__genres-span">Horror</span>
+                    </div>
+                    <div class="popular__genres-item">
+                        <img src="images/smile.svg" alt="">
+                        <span class="popular__genres-span">Comedy</span>
+                    </div>
+                    <div class="popular__genres-item">
+                        <img src="images/castle.svg" alt="">
+                        <span class="popular__genres-span">Documentary</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popular__actors">
+            <div class="container">
+                <h2 class="trend__tv-title popular__actors-title">Popular & Releases <strong></strong> <span
+                        class="icon-reg"></span></h2>
+                <div class="swiper-container trend__tv-slider popular__actors-slider">
+                    <div class="swiper-wrapper">
+                        <!-- <div class="swiper-slide">
+                            <div class="popular__actors-item">
+                                <img src="images/samanthaBowen.png" alt="">
+                                <span class="popular__actors-span">Samantha Bowen</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="popular__actors-item">
+                                <img src="images/RhysBirch.png" alt="">
+                                <span class="popular__actors-span">Rhys Birch</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="popular__actors-item">
+                                <img src="images/JamesHolloway.png" alt="">
+                                <span class="popular__actors-span">James Holloway</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="popular__actors-item">
+                                <img src="images/JoshuaWalton.png" alt="">
+                                <span class="popular__actors-span">Joshua Walton</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="popular__actors-item">
+                                <img src="images/PatrickElliot.png" alt="">
+                                <span class="popular__actors-span">Patrick Elliott</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="popular__actors-item">
+                                <img src="images/MorganOneill.png" alt="">
+                                <span class="popular__actors-span">Morgan O'Neill</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="popular__actors-item">
+                                <img src="images/samanthaBowen.png" alt="">
+                                <span class="popular__actors-span">Samantha Bowen</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="popular__actors-item">
+                                <img src="images/JamesHolloway.png" alt="">
+                                <span class="popular__actors-span">James Holloway</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="popular__actors-item">
+                                <img src="images/JoshuaWalton.png" alt="">
+                                <span class="popular__actors-span">Joshua Walton</span>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+        <div class="coming__soon">
+            <div class="container">
+                <div class="coming__soon-block">
+                    <img src="images/bigBuckBunny.png" alt="">
+                    <div class="coming__block-neon">
+                        <div class="coming__soon-img">
+                            <img src="images/2021.svg" alt="">
+                        </div>
+                        <span class="coming__soon-span">comming soon...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="register__now">
+            <div class="container">
+                <div class="register__now-block">
+                    <p class="register__now-descr">Are You New Here ?
+                        Don’t wait, Register Now. </p>
+                    <a href="#" class="register__now-link header__watch">Register Now</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <a href="#" class="logo"><span class="logo__span">m</span> box</a>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link"><span class="icon-brand"></span></a>
+                        <a href="#" class="footer__social-link"><span class="icon-brand"></span></a>
+                        <a href="#" class="footer__social-link"><span class="icon-brand"></span></a>
+                        <a href="#" class="footer__social-link"><span class="icon-brand"></span></a>
+                    </div>
+                </div>
+                <div class="footer__lists">
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Voice over and Subtitle</a></li>
+                        <li><a href="#" class="footer__link">Media Center</a></li>
+                        <li><a href="#" class="footer__link">Privacy</a></li>
+                        <li><a href="#" class="footer__link">Contact us</a></li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Voice Description</a></li>
+                        <li><a href="#" class="footer__link">Investor Relations</a></li>
+                        <li><a href="#" class="footer__link">Legal Provisions</a></li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Help Center</a></li>
+                        <li><a href="#" class="footer__link">Job Opportunities</a></li>
+                        <li><a href="#" class="footer__link">Cookies Preferences</a></li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Gift Cards</a></li>
+                        <li><a href="#" class="footer__link">Terms of Use</a></li>
+                        <li><a href="#" class="footer__link">Corporate Informations</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
